@@ -1,0 +1,22 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Probe harness runtime output
+out.png
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Sensitive / machine-local
+*.toe1
+*.bak

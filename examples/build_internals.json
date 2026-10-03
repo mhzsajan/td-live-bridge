@@ -1,0 +1,15 @@
+{
+  "parent_path": "/project1/base_live_bridge",
+  "auto_layout": true,
+  "operators": [
+    {"type": "textDAT", "name": "LiveBridgeExt", "nodeX": -200, "nodeY": 0, "viewer": true},
+    {"type": "executeDAT", "name": "pump_exec", "nodeX": -200, "nodeY": -125, "viewer": true},
+    {"type": "parameterCHOP", "name": "par_live", "nodeX": 0, "nodeY": 0, "viewer": true},
+    {"type": "nullCHOP", "name": "null_live", "nodeX": 175, "nodeY": 0, "viewer": true},
+    {"type": "outCHOP", "name": "out1", "nodeX": 350, "nodeY": 0, "viewer": true}
+  ],
+  "connections": [
+    {"from": "par_live", "to": "null_live"},
+    {"from": "null_live", "to": "out1"}
+  ]
+}

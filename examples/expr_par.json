@@ -1,0 +1,1 @@
+{"path":"/project1/base_live_bridge","values":{"Connected":{"expr":"1 if me.LiveStatus == 'connected' else 0"}}}
